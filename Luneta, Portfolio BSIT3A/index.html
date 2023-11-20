@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Luneta Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+	<script src="https://rawgit.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+
+	<style>
+		.project {
+		  position: relative;
+		  overflow: hidden;
+		}
+	
+		.zoom-container {
+		  position: fixed;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		  background-color: rgba(0, 0, 0, 0.9);
+		  display: none;
+		  justify-content: center;
+		  align-items: center;
+		  z-index: 999;
+		}
+	
+		.zoomed-image {
+		  max-width: 90%;
+		  max-height: 90%;
+		}
+	
+		.close-btn {
+		  position: absolute;
+		  top: 20px;
+		  right: 20px;
+		  color: white;
+		  font-size: 30px;
+		  cursor: pointer;
+		}
+	  </style>
+	  
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	  
+	  
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand" href="index.html">Jann Erish</a>
+	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+	  <br>
+	  <br>
+	  <br>
+	  <section id="home-section" class="hero">
+		  <div class="home-slider  owl-carousel">
+	      <div class="slider-item ">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/1.png);">
+	          		<div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm <span>Jann Erish Luneta</span></h1>
+			            <h2 class="mb-4">A BSIT student</h2>
+			           
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+
+	      <div class="slider-item">
+	      	<div class="overlay"></div>
+	        <div class="container">
+	          <div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/2.png);">
+	          		<div class="overlay"></div>
+	          	</div>
+		          <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+		          	<div class="text">
+		          		<span class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3">I'm a <span>student</span> in Philippine Christian University</h1>
+			            
+		            </div>
+		          </div>
+	        	</div>
+	        </div>
+	      </div>
+	    </div>
+    </section>
+
+    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    	<div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 col-lg-5 d-flex">
+    				<div class="img-about img d-flex align-items-stretch">
+    					<div class="overlay"></div>
+	    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/2.png);">
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+    				<div class="row justify-content-start pb-3">
+		          <div class="col-md-12 heading-section ftco-animate">
+		          	<h1 class="big">About</h1>
+		            <h2 class="mb-4">About Me</h2>
+		            <ul class="about-info mt-4 px-md-0 px-2">
+		            	<li class="d-flex"><span>Name:</span> <span>Luneta, Jann Erish G.</span></li>
+						<br>
+		            	<li class="d-flex"><span>Date of birth:</span> <span>January 03, 2003</span></li>
+						<br>
+		            	<li class="d-flex"><span>Address:</span> <span>Dasmariñas Cavite</span></li>
+						<br>
+		            	<li class="d-flex"><span>Zip code:</span> <span>4114</span></li>
+						<br>
+		            	<li class="d-flex"><span>Email:</span> <span>jannerish@gmail.com</span></li>
+						<br>
+		            	<li class="d-flex"><span>Phone: </span> <span>+639158975115</span></li>
+		            </ul>
+		          </div>
+		        </div>
+	          <div class="counter-wrap ftco-animate d-flex mt-md-3">
+
+	          </div>
+	        </div>
+        </div>
+    	</div>
+		<section class="ftco-section ftco-no-pb" id="resume-section">
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+			  <div class="col-md-10 heading-section text-center ftco-animate">
+				  <h1 class="big big-2">Education</h1>
+				<h2 class="mb-4">Education</h2>
+			 </div>
+			</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="resume-wrap ftco-animate">
+							<span class="date">2021 - Prev</span>
+							<h2>College</h2>
+							<span class="position">Philippine Christian University, Dasmariñas Cavite</span>
+						</div>
+						<div class="resume-wrap ftco-animate">
+							<span class="date">2015 - 2019</span>
+							<h2>High School</h2>
+							<span class="position">Tanza National Trade School, Tanza Cavite</span>
+						</div>
+					</div>
+	
+					<div class="col-md-6">
+						<div class="resume-wrap ftco-animate">
+							<span class="date">2019 - 2021</span>
+							<h2>Senior High School</h2>
+							<span class="position">Saint Jude Parish School, Trece Martires City, Cavite </span>
+						</div>
+						<div class="resume-wrap ftco-animate">
+							<span class="date">2015</span>
+							<h2>Elementary</h2>
+							<span class="position">Bea Therese School, Tanza Cavite</span>
+						</div>
+	
+					</div>
+				</div>
+				<div class="row justify-content-center mt-5">
+					<div class="col-md-6 text-center ftco-animate">
+						<p><a href="LunetaPortfolio.pdf" target="_blank" class="btn btn-primary py-4 px-5" download>Download CV</a></p>
+					</div>
+				</div>
+			</div>
+			<section class="ftco-section" id="skills-section">
+				<div class="container">
+					<div class="row justify-content-center pb-5">
+			  <div class="col-md-12 heading-section text-center ftco-animate">
+				  <h1 class="big big-2">Skills</h1>
+				<h2 class="mb-4">My Skills</h2>
+	
+			  </div>
+			</div>
+					<div class="row">
+						<div class="col-md-6 animate-box">
+							<div class="progress-wrap ftco-animate">
+								<h3>HTML5</h3>
+								<div class="progress">
+									 <div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+									  aria-valuemin="0" aria-valuemax="100" style="width:90%">
+									<span>90%</span>
+									  </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box">
+							<div class="progress-wrap ftco-animate">
+								<h3>Laravel</h3>
+								<div class="progress">
+									 <div class="progress-bar color-2" role="progressbar" aria-valuenow="85"
+									  aria-valuemin="0" aria-valuemax="100" style="width:85%">
+									<span>85%</span>
+									  </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box">
+							<div class="progress-wrap ftco-animate">
+								<h3>CSS</h3>
+								<div class="progress">
+									 <div class="progress-bar color-3" role="progressbar" aria-valuenow="85"
+									  aria-valuemin="0" aria-valuemax="100" style="width:85%">
+									<span>85%</span>
+									  </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box">
+							<div class="progress-wrap ftco-animate">
+								<h3>PHP</h3>
+								<div class="progress">
+									 <div class="progress-bar color-4" role="progressbar" aria-valuenow="90"
+									  aria-valuemin="0" aria-valuemax="100" style="width:90%">
+									<span>90%</span>
+									  </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box">
+							<div class="progress-wrap ftco-animate">
+								<h3>JavaScript</h3>
+								<div class="progress">
+									 <div class="progress-bar color-5" role="progressbar" aria-valuenow="60"
+									  aria-valuemin="0" aria-valuemax="100" style="width:60%">
+									<span>60%</span>
+									  </div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box">
+							<div class="progress-wrap ftco-animate">
+								<h3>Vue</h3>
+								<div class="progress">
+									 <div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
+									  aria-valuemin="0" aria-valuemax="100" style="width:80%">
+									<span>80%</span>
+									  </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+    </section>
+
+
+
+
+
+		
+
+ 
+
+    <section class="ftco-section ftco-project" id="projects-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+          	<h1 class="big big-2">Projects</h1>
+            <h2 class="mb-4">My Projects</h2>
+          </div>
+        </div>
+		<div>
+			<h2 style="color: orange; text-align: center;" >Food Ordering System Using Laravel</h2>
+			<div class="row">
+			  <div class="col-md-4">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/PCUFV/1.png);" onclick="openZoom(this.style.backgroundImage.slice(5, -2));">
+				  <div class="overlay"></div>
+				  <div class="text text-center p-4">
+					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+					<span>Web Design</span>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-8">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/PCUFV/2.png);" onclick="openZoom(this.style.backgroundImage.slice(5, -2));">
+				  <div class="overlay"></div>
+				  <div class="text text-center p-4">
+					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+					<span>Web Design</span>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-8">
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/PCUFV/3.png);" onclick="openZoom(this.style.backgroundImage.slice(5, -2));">
+				  <div class="overlay"></div>
+				  <div class="text text-center p-4">
+					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+					<span>Web Design</span>
+				  </div>
+				</div>
+				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/PCUFV/4.png);" onclick="openZoom(this.style.backgroundImage.slice(5, -2));">
+				  <div class="overlay"></div>
+				  <div class="text text-center p-4">
+					<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+					<span>Web Design</span>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-md-4">
+				<div class="row">
+				  <div class="col-md-12">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/PCUFV/5.png);" onclick="openZoom(this.style.backgroundImage.slice(5, -2));">
+					  <div class="overlay"></div>
+					  <div class="text text-center p-4">
+						<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+						<span>Web Design</span>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-md-12">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/PCUFV/6.png);" onclick="openZoom(this.style.backgroundImage.slice(5, -2));">
+					  <div class="overlay"></div>
+					  <div class="text text-center p-4">
+						<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+						<span>Web Design</span>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+			<div>
+				<h2 style="color: orange; text-align: center;" class="mb-4">Uniform Reservation System Using Laravel</h2>
+				<div class="row">
+				  <div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/RUNESLANG/1.png);" onclick="openZoom(this.style.backgroundImage.slice(5, -2));">
+					  <div class="overlay"></div>
+					  <div class="text text-center p-4">
+						<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+						<span>Web Design</span>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-md-8">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/RUNESLANG/2.png);" onclick="openZoom(this.style.backgroundImage.slice(5, -2));">
+					  <div class="overlay"></div>
+					  <div class="text text-center p-4">
+						<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+						<span>Web Design</span>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-md-8">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/RUNESLANG/3.png);" onclick="openZoom(this.style.backgroundImage.slice(5, -2));">
+					  <div class="overlay"></div>
+					  <div class="text text-center p-4">
+						<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+						<span>Web Design</span>
+					  </div>
+					</div>
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/RUNESLANG/4.png);" onclick="openZoom(this.style.backgroundImage.slice(5, -2));">
+					  <div class="overlay"></div>
+					  <div class="text text-center p-4">
+						<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+						<span>Web Design</span>
+					  </div>
+					</div>
+				  </div>
+				  <div class="col-md-4">
+					<div class="row">
+					  <div class="col-md-12">
+						<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/RUNESLANG/5.png);" onclick="openZoom(this.style.backgroundImage.slice(5, -2));">
+						  <div class="overlay"></div>
+						  <div class="text text-center p-4">
+							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+							<span>Web Design</span>
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-md-12">
+						<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/RUNESLANG/1.png);" onclick="openZoom(this.style.backgroundImage.slice(5, -2));">
+						  <div class="overlay"></div>
+						  <div class="text text-center p-4">
+							<h3><a href="#">Branding &amp; Illustration Design</a></h3>
+							<span>Web Design</span>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  
+			  <!-- Zoom container -->
+			  <div class="zoom-container" id="zoomContainer" onclick="closeZoom();">
+				<img src="" alt="Zoomed Image" class="zoomed-image" id="zoomedImage">
+				<span class="close-btn">&times;</span>
+			  </div>
+    	</div>
+    </section>
+
+
+
+
+
+
+
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+		  <div class="row justify-content-center mb-5 pb-3">
+			<div class="col-md-7 heading-section text-center ftco-animate">
+			  <h1 class="big big-2">Contact</h1>
+			  <h2 class="mb-4">Contact Me</h2>
+			  
+			</div>
+		  </div>
+	  
+		  <div class="row d-flex contact-info mb-5 justify-content-center">
+			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			  <div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+				  <span class="icon-map-signs"></span>
+				</div>
+				<h3 class="mb-4">Address</h3>
+				<p>Dasmariñas, Cavite</p>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			  <div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+				  <span class="icon-phone2"></span>
+				</div>
+				<h3 class="mb-4">Contact Number</h3>
+				<p><a href="tel://1234567920">+639158975115</a></p>
+			  </div>
+			</div>
+			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			  <div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+				  <span class="icon-paper-plane"></span>
+				</div>
+				<h3 class="mb-4">Email Address</h3>
+				<p><a href="mailto:info@yoursite.com">jannerish@gmail.com</a></p>
+			  </div>
+			</div>
+		  </div>
+
+        <div class="row no-gutters block-9">
+          <div class="col-md-6 order-md-last d-flex">
+            <form action="#" class="bg-light p-4 p-md-5 contact-form">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <p><a class="btn btn-primary" href="mailto:jannerish@gmail.com">Send Message</a></p>
+              </div>
+            </form>
+          
+          </div>
+
+          <div class="col-md-6 d-flex">
+          	<div class="img" style="background-image: url(images/3.png);"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+		  <div class="row">
+			<div class="col-md-12 text-center">
+			  <p>
+				LUNETA , JANN ERISH G. BSIT3A
+			  </p>
+			  <div class="ftco-footer-widget mb-4">
+				<ul class="ftco-footer-social list-unstyled">
+				  <li class="ftco-animate"><a href="https://twitter.com/home" target="_blank"><span class="icon-twitter"></span></a></li>
+				  <li class="ftco-animate"><a href="https://www.facebook.com/JannErishGamuzaLuneta.w.w.w" target="_blank"><span class="icon-facebook"></span></a></li>
+				  <li class="ftco-animate"><a href="https://www.instagram.com/ereshhhhhh/" target="_blank"><span class="icon-instagram"></span></a></li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </footer>
+	  
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+  <script>
+	function openZoom(imageUrl) {
+	  var zoomContainer = document.getElementById('zoomContainer');
+	  var zoomedImage = document.getElementById('zoomedImage');
+	  zoomedImage.src = imageUrl;
+	  zoomContainer.style.display = 'flex';
+	}
+	function closeZoom() {
+	  var zoomContainer = document.getElementById('zoomContainer');
+	  zoomContainer.style.display = 'none';
+	}
+  </script>
+
+<script>
+	document.getElementById('downloadPdfBtn').addEventListener('click', function () {
+		var element = document.getElementById('content');
+		html2pdf(element);
+	});
+</script>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
